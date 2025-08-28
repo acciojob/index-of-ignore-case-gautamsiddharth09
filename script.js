@@ -1,5 +1,9 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
+	let index = s1.indexOf(s2);
+	if(index != -1) return index;
+	return -1;
+	
 }
 
 // Please do not change the code below
